@@ -1,0 +1,161 @@
+    @media (max-width: 767px) {
+        .banner {
+            height: 450px;
+            width: 100%;
+            background-image: url(../img/slider03.jpg);
+        }
+        .banner h1 {
+            font-size: 40px;
+        }
+        .header-caption {
+            margin-top: 184px;
+        }
+        .banner .btn {
+            padding: 9px 25px;
+            float: left;
+        }
+        .header-caption {
+            width: 85%;
+        }
+        /*Slicer*/
+        .slider {
+            min-height: 400px;
+        }
+        .carousel-control i {
+            font-size: 50px;
+            color: gray;
+            margin-top: 50px;
+        }
+        .left.carousel-control {
+            margin-left: -20px;
+        }
+        .right.carousel-control {
+            margin-right: -20px;
+        }
+        /*Achievement*/
+        #achivement {
+            background-image: url(../img/snowboarding02.jpg);
+            height: 450px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .achivement-description {
+            width: 95%;
+            position: relative;
+            top: 15px;
+            left: 10px;
+        }
+        .achivement-description h1 {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+        .achivement-description p {
+            color: white;
+            font-size: 12px;
+            line-height: 140%;
+        }
+        /*            Footer*/
+        footer input {
+            width: 65px;
+        }
+        footer .social {
+            font-size: 15px;
+            padding: 3px;
+        }
+        /*        feature*/
+        .feature p i {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: normal;
+            color: black;
+            position: relative;
+            left: 103px;
+        }
+        .feature h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 30px;
+            color: black;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .font-seze {
+            font-size: 12px;
+        }
+        .banner h1 {
+            font-size: 53px;
+        }
+        .banner {
+            height: 650px;
+            width: 100%;
+            background-image: url(../img/slider04.jpg);
+        }
+        /*        Slider*/
+        .carousel-control i {
+            font-size: 175px;
+            color: gray;
+            margin-top: 90px;
+        }
+        .left.carousel-control {
+            margin-left: -30px;
+        }
+        .right.carousel-control {
+            margin-right: -30px;
+        }
+        /*                Achievement*/
+        #achivement {
+            background-image: url(../img/snowboarding03.jpg);
+            height: 500px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .achivement-description {
+            top: 40px;
+            left: 100px;
+        }
+        .achivement-description h1 {
+            font-size: 33px;
+        }
+        .achivement-description p {
+            color: white;
+            font-size: 14px;
+            line-height: 200%;
+        }
+        .feature p i {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            left: 340px;
+            font-weight: normal;
+            color: black;
+        }
+        .email {
+            margin-right: 75px;
+        }
+    }
+    
+    @media (min-width: 992px) and (max-width: 1200px) {
+        footer input {
+            width: 157px;
+        }
+        .feature p i {
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            left: 450px;
+            font-weight: normal;
+            color: black;
+        }
+    }
+    
+    @media (min-width: @screen-lg-min) {}
